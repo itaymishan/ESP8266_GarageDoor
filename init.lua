@@ -1,5 +1,5 @@
 wifi.setmode(wifi.STATION);
-wifi.sta.config ( "Bogert-2G" , "gotoronto" ); 
+wifi.sta.config ( "xxx" , "xxx" ); 
 wifi.sta.setip({ip="192.168.0.230",netmask="255.255.255.0",gateway="192.168.0.1"});
 gpio.mode(3, gpio.OUTPUT);
 gpio.write(3, gpio.HIGH);
